@@ -1,2 +1,53 @@
+/* Estilos Generales */
+body {
+    background-color: #7052FB;
+}
 
+/* Estilos de pagina */
+.color-navbar {
+    background-color: #7052FB;
+}
 
+.image {
+   padding-top: 10px;
+   padding-right: 100px;
+   width: 48%;
+}
+
+.texto-principal {
+  max-width: 485px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #f8f9fa;
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 17px;
+  white-space: pre-line;
+}
+
+.texto-subtitulo {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  max-width: 500px;
+  white-space: pre-line;
+  color: #f8f9fa;
+}
+
+.boton {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.ft__half {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px 0;
+  width: 50%;
+}

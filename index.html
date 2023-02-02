@@ -3,9 +3,9 @@
     <head>
       <!-- Metadatos -->
       <meta charset="utf-8">
-      <meta name="author" content="Daniel Rodriguez">
-      <meta name="description" content="Portafolio de desarrollo de Daniel Rodriguez">
-      <meta name="keywords" content="HTML, CSS, JavaScript, React">
+      <meta name="author" content="Bootstrap">
+      <meta name="description" content="Bootstrap">
+      <meta name="keywords" content="Bootstrap">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Titulo -->
       <title> Pagina Bootstrap </title>
@@ -18,14 +18,36 @@
        <!-- Google Fonts -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
       <!-- Barra de navegacion -->
-      <nav class="navbar bg-body-tertiary fixed-top ">
-        <div class="container">
-          <a class="navbar-brand" href="#">Offcanvas navbar</a>
-          <button class="navbar-toggler d-block d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <nav class="navbar navbar-light color-navbar">
+        <div class="container-fluid container-lg">
+        <ul class="navbar-nav d-flex flex-row d-none d-block d-lg-flex">
+              <li class="nav-item me-3">
+                <a class="nav-link fw-semibold text-light m-3 " href="#">Features</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-semibold text-light m-3 " href="#">Pircing</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-semibold text-light m-3 " href="#">FAQs</a>
+              </li>
+            </ul>
+            <img src="./images/logo codery.png" width="200px" alt="Logo">
+            <ul class="navbar-nav d-flex flex-row d-none d-block d-lg-flex">
+              <li class="nav-item me-3">
+                <a class="nav-link btn btn-dark text-light p-2 m-2 fw-semibold shadow-sm" href="#">Live Demo</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link btn btn-dark text-light p-2 m-2 fw-semibold shadow-sm" href="#">Register</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link btn btn-dark text-light p-2 m-2 fw-semibold shadow-sm" href="#">Log In</a> 
+              </li>
+            </ul>
+          <button class="navbar-toggler d-block d-md-flex d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -59,6 +81,18 @@
           </div>
         </div>
       </nav>
+      <!-- Principio -->
+      <div class="d-flex justify-content-center align-items-center .ft__half">
+        <img class="img-fluid image" src="./images/32cdwmenojnvnpyy.png" alt="">
+        <div>
+          <h1 class="texto-principal">Extract and collect data from any website</h1>
+          <p class="texto-subtitulo">Turns websites into accurate data in only seconds</p>
+          <div class="boton">
+            <a href="#" class="boton btn btn-dark shadow-sm fw-semibold">Get started</a>
+          </div>
+        </div>
+      </div>
+    
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
